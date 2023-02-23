@@ -1,4 +1,4 @@
-#include "newGASS.hpp"
+#include "newGASS-base/newGASS.hpp"
 #include <vector>
 
 using namespace std;

@@ -1,0 +1,9 @@
+# Build: 
+```
+g++ newGASS-base/Individuo.cpp newGASS-base/GA.cpp newGASS-base/newGASS.cpp multiGASS.cpp -pthread -O3
+```
+
+# Run
+```
+./a.out <number_of_threads> <path_to_run_list_file> <path_to_template_folder>
+```
