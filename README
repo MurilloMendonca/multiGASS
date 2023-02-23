@@ -1,9 +1,15 @@
 # Build: 
+Build it with:
 ```
-g++ newGASS-base/Individuo.cpp newGASS-base/GA.cpp newGASS-base/newGASS.cpp multiGASS.cpp -pthread -O3
+make
+```
+
+And you can clear the .o files with:
+```
+make clean
 ```
 
 # Run
 ```
-./a.out <number_of_threads> <path_to_run_list_file> <path_to_template_folder>
+./multiGASS <number_of_threads> <path_to_run_list_file> <path_to_template_folder>
 ```
